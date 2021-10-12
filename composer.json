@@ -1,0 +1,15 @@
+{
+    "name": "sebmoc/interestaccount",
+    "description": "Assignment from CHIP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sebmoc\\Interestaccount\\": "src/",
+            "Sebmoc\\Interestaccount\\Mocks\\": "tests/mocks"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
